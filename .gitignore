@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+
+# Training artifacts (keep directory placeholders via .gitkeep)
+logs/**/*
+!logs/**/.gitkeep
+models/**/*
+!models/**/.gitkeep
+!models/**/.gitkeep
+
+# Keep best model markers optional
+*.zip
+*.pt
+*.pth
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Results / local
+results/
+*.log
+.last_run_summary.json
